@@ -1,0 +1,162 @@
+:root {
+  --bg-destaque:#462166;
+  --cor-borda:#074193;
+}
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Scada', sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #191919;
+}
+
+
+
+/*navbar */
+
+
+/* Logo */
+.rd-navbar-default.rd-navbar-static .rd-navbar-panel {
+    padding: 17px 60px;
+    
+}
+
+
+.rd-navbar-default.rd-navbar-static.rd-navbar--is-stuck {
+	transition: 0.35s all ease;
+	box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.15);
+	background-color: rgba(58, 31, 89, 1);
+}
+
+.rd-navbar-default.rd-navbar-fixed, .rd-navbar-default.rd-navbar-fixed .rd-navbar-panel {
+    height: 65px;
+    background-color: #003eaa;
+    border-bottom-color: #003eaa;
+}
+
+.rd-navbar-default.rd-navbar-static.rd-navbar--is-stuck .rd-navbar-panel {
+    border-bottom-color: rgba(58, 31, 89, 0.9);
+}
+
+.menu ul {
+    padding:0px;
+   
+    float: right;
+    list-style:none;
+}
+
+.menu ul li { display: inline;
+   padding:15px;
+    margin:0px;
+}
+
+.menu ul li a {
+    color: #FFF;
+   
+}
+
+.rd-navbar-static.rd-navbar--is-stuck {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 11;
+}
+
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #823DBF;
+    border-color:  #823DBF;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color:#462166;
+    border-color: #462166;
+}
+
+/*  borda seção produtos  */
+@media (min-width: 992px) {
+	.responsive-tabs-classic[data-type="horizontal"] {
+		border-bottom: none;
+	}
+	.responsive-tabs-classic[data-type="horizontal"] .resp-tab-content + .resp-accordion {
+		border-top: none;
+	}
+	.responsive-tabs-classic[data-type="horizontal"] .resp-tabs-list li:before {
+		position: absolute;
+		left: 50%;
+		bottom: 4px;
+		width: 0;
+		height: 2px;
+		background-color: #823DBF;
+		content: '';
+		transform: translateX(-50%);
+	}
+	.responsive-tabs-classic[data-type="horizontal"] .resp-tabs-list li.resp-tab-active:before {
+		width: 100%;
+	}
+	.responsive-tabs-classic[data-type="horizontal"] .resp-tabs-list li + li {
+		margin-left: 6px;
+	}
+	.responsive-tabs-classic[data-type="horizontal"] .resp-tab-content {
+		padding-top: 32px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.responsive-tabs-classic[data-type="horizontal"] .resp-tabs-list li + li {
+		margin-left: 28px;
+	}
+}
+
+
+/* botão subir para o topo   */
+.ui-to-top {
+
+	color: #662D91;
+
+}
+
+.ui-to-top:hover {
+    color: #fff;
+    background: #823DBF;
+    border-color: #823DBF;
+}
+
+/*  marcadores de paginação  */
+
+.owl-carousel-default .owl-dot.active, .owl-carousel-default .owl-dot:hover {
+	background: #823DBF;
+	
+}
+
+/* pré footer */
+@media (min-width: 992px) {
+.section-md-110 {
+    padding-bottom: 0px;}
+}
+
+.especial-padding {
+   padding-bottom: 0px; 
+}
+
+/* Footer */
+
+.bg-gray-darkest {
+    background: #1B1C1C;
+    fill: #1B1C1C;
+}
+
+.list > li a:hover {
+    color: #0780DB;
+    text-decoration: none;
+}
+
+.bg-primario {
+    background-color: #f4f6fe;
+}
+
+
